@@ -211,4 +211,7 @@ main h1{
         width: 100%;
         flex-direction: column;
     }
+    .gallery{
+        flex-direction: column;
+    }
 }

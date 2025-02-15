@@ -171,7 +171,8 @@ figcaption {
         margin: 10px 0;
     }
     .banner-content {
-        margin-left: 10px;
+        display: grid;
+        margin:0;
         text-align: left;
     }
 

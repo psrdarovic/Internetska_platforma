@@ -308,7 +308,8 @@ main a:hover{
         width: 90%;
         text-align: center;
         font-size: 1.2rem;
-        color: white;
+        color: rgb(255, 255, 255);
+        background-color: #4141411c;
         padding: 8px 12px;
         z-index: 5;
         display: flex; 

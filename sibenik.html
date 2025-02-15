@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Page for apartments Srdarović in Drage">
+    <meta name="keywords" content="Apartment,Drage,Croatia,Srdarović,vacation,Vransko Lake">
+    <meta name="author" content="Paula Srdarović">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Great+Vibes&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylenews.css">
+    <title>Apartmani Srdarović</title>
+    <style>
+        .hero-section {
+              background: url('img/sibenik/sibenik_noc.jpg') center/cover no-repeat;
+              height: 100vh;
+              position: relative;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+          }
+      </style>
+</head>
+<body>
+    <header class="hero-section">
+        <nav class="nav-bar">
+            <div class="menu-toggle" onclick="toggleMenu()"><img src="img/ikone_logo/icons8-menu-24.png" alt="menu">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <h1 class="hero-title">ŠIBENIK</h1>
+    </header>
+    <main>
+        <div class="gallery">
+            <figure class="panel active">
+                <img src="img/sibenik/sibenik.jpg" alt="sibenik" title="sibenik">
+                <figcaption>Old town</figcaption>
+            </figure>
+            <figure class="panel">
+                <img src="img/sibenik/tvrdava_sv_mihovil.jpg" alt="Tvrđava Sv. Mihovila" title="Tvrđava Sv. Mihovila">
+                <figcaption>The fortress of St. Mihovil</figcaption>
+            </figure>
+            <figure class="panel">
+                <img src="img/sibenik/tvrdava_sv_nikole.jpg" alt="Tvrđava Sv. Nikole" title="Tvrđava Sv. Nikole">
+                <figcaption>The fortress of St. Nicholas </figcaption>
+            </figure>
+            <figure class="panel">
+                <img src="img/sibenik/katedrala.jpg" alt="Interior St.James Cathedral" title="Interior St.James Cathedral">
+                <figcaption>Interior of the Cathedral</figcaption>
+            </figure>
+            <figure class="panel">
+                <img src="img/sibenik/katedrala_glave.jpg" alt="St.James Cathedral" title="St.James Cathedral">
+                <figcaption>Sculpted Heads on St. James' Cathedral</figcaption>
+            </figure>
+            <script src="panel.js"></script>
+        </div>
+        <div class="news">
+            <h1>Šibenik: The City of Cathedrals, Fortresses, and Endless Mediterranean Magic!</h1>
+            <h2>One day in Šibenik</h2>
+            <p class="description">Top 4 things to visit in Šibenik</p> <br>
+            <p>Unlike Dubrovnik or Split, which were founded by the Greeks, Šibenik, or Sebenico as it was historically known, was one of the few native cities built by the Croats on the Adriatic coast.</p> 
+            <p>And with UNESCO-World Heritage sites like the iconic St. James Cathedral, which served as the backdrop of the uber popular series, Game of Thrones, Šibenik is a destination not to be missed.  </p> 
+            <p>Explore the enchanting Old Town of Šibenik with its medieval charm and labyrinthine streets. Prepare to navigate numerous stone stairways as you wander, as Šibenik allegedly has more stairs than any other city in Croatia, even surpassing Dubrovnik</p> <br>
+            <p>Undoubtedly worth a visit in the old town is the beautiful medieval Republic Square with its elegant Venetian Baroque style buildings and palaces of noblemen that make this area of the city a little gem.Also situated on the Square of the Republic of Croatia, Šibenik Town Hall, which was built between 1533 and 1546, is an exemplary Renaissance structure, featuring grand columns, arches, and a balustrade. Despite damage from a 1943 air raid, the town hall was faithfully reconstructed, offering visitors a glimpse of its original splendour. Today, it has a classy, romantic restaurant opposite which stands the Cathedral of St. James. </p> <br>
+            <p>Šibenik’s Cathedral of St. James is the city's crown jewel. An imposing building with large, white slabs — it is, without a doubt, a fixed stop for the tourists. Built entirely of stone over a century, it seamlessly blends Gothic and Renaissance styles. Adorned with over 70 unique faces, it's a testament to architectural brilliance.</p> <br>
+            <p>Going up, beyond the monastery, through a street leading to the upper part of Šibenik, there is St. Michael's Fortress, the oldest of Šibenik's four fortresses and one of the symbols of the upper town, which, in the past, served as a defence system of the city, offering stunning views of the city and the Adriatic Sea. Today, the upper courtyard of the fortress is a beautiful open-air theatre,  which has just over 1000 seats and has hosted great artists like Gregory Porter.</p> <br>
+            <p>Built in the 16th century on a small island at the entrance to St. Anthony Channel, St. Nicholas Fortress was designed to defend against sea-bound attacks. Despite its imposing appearance with 32 cannons, it never faced battle. The fortress was named after Benedictine Monastery of St. Nicholas and required the monastery's demolition for its construction. Following extensive renovations, the fortress is now open to the public and accessible only by water, with boat taxi available in town. However, it's more impressive from the outside, making sunset kayaking tours or viewing it from the coast along the promenade recommended options.</p> <br>
+            <p><time datetime="2022-05-04">04 May 2022</time></p>
+            <p>Source:<a href="https://www.happy.rentals/blog/241-one-day-in-sibenik" target="_blank">Happy Rentals</a></p>
+            <p><a href="news.html">Back to news</a></p>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2025 Paula Srdarović. </p>
+        <a href="https://github.com/psrdarovic/Internetska_platforma.git" target="_blank">
+            <img src="img/ikone_logo/github.png" alt="github" >
+        </a>
+    </footer>
+    <script src="menu.js"></script>
+</body>
+</html>

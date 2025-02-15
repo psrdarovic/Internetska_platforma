@@ -1,0 +1,179 @@
+/* Reset stilova */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Playfair Display", serif;
+}
+body{
+    background-color: #1a1a1a;
+}
+
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.nav-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    z-index: 10;
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    background: none;
+    border: none;
+    box-shadow: none;
+    padding: 5px 10px;
+}
+
+.nav-links a:hover {
+    color: #f4a261;
+}
+.menu-toggle {
+    display: none;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+.source-link {
+    color: #f4a261; 
+    text-decoration: none; 
+    font-weight: bold;
+    transition: color 0.3s ease-in-out; 
+}
+
+.source-link:hover {
+    color:#a5a4a4;
+}
+
+.social-icons img {
+    width: 40px; 
+    height: auto;
+    margin: 5px;
+}
+.banner-content {
+    display: flex;
+    height: calc(100vh - 70px);
+    width: 100%;
+    padding-top: 70px;
+}
+
+.logo-container {
+    margin-bottom: 20px;
+}
+
+.logo-container img {
+    max-width: 150px;
+    width: auto;
+    transition: transform 0.3s ease-in-out;
+}
+.logo-container img:hover {
+    transform: scale(1.1);
+}
+
+.source-link {
+    color: #f4a261; 
+    text-decoration: none; 
+    font-weight: bold;
+    transition: color 0.3s ease-in-out; 
+}
+
+.source-link:hover {
+    color:#a5a4a4;
+}
+
+.social-icons img {
+    width: 40px; 
+    height: auto;
+    margin: 5px;
+}
+footer {
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+}
+.footer img{
+    width: 100px;
+    height: auto;
+}
+
+
+figcaption {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+@media (max-width: 900px) {
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+        font-size: 1.8rem;
+        color: white;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+    .banner-content {
+        margin-left: 10px;
+        text-align: left;
+    }
+
+   
+}

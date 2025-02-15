@@ -43,8 +43,8 @@
 </head>
 <body>
 
-    <h2>Hvala što ste nas kontaktirali!</h2>
-    <p>Vaša poruka je uspješno poslana. Odgovorit ćemo vam što prije.</p>
+    <h2>Thank you for contacting us!</h2>
+    <p>Your message has been successfully sent. We will try to get back to you soon.</p>
     <img src="img/ikone_logo/bili_logo.png" alt="Thank you!" width="300">
 </body>
 </html>

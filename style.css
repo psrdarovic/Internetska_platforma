@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
     font-family: "Playfair Display", serif;
+    box-sizing: border-box;
 }
 body{
     background-color: #1a1a1a;
+
 }
 
 .hero-section {
@@ -117,14 +119,19 @@ body{
 }
 footer {
     width: 100%;
-    color: white;
+    color: #fff;
     text-align: center;
     padding: 15px 0;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
     font-family: "Montserrat", sans-serif;
 }
+
 .footer img{
-    width: 100px;
+    width: 40px;
     height: auto;
 }
 

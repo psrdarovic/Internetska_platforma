@@ -215,3 +215,7 @@ main h1{
         flex-direction: column;
     }
 }
+    .gallery{
+        flex-direction: column;
+    }
+}
